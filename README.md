@@ -37,3 +37,15 @@ ___
 | `git log --oneline` | Oneline view of all commits |
 | `git log --graph` | Graph view of all commits |
 | `git log --graph --all --oneline --decorate` | Nice & simple map view of all commits |
+
+### Comparison:
+
+| Command | Description |
+| ------- | ----------- |
+| `git diff` | Show differences between the repository and working directory |
+| `git diff --staged` | Show differences between the repository and the staging |
+| `git diff --color-words` | Show only words that are different |
+| `git diff <branch>..<branch>` | Compare branches |
+| `git show` | Show `diff` between last two commits |
+| `git show <SHA>..<SHA>` | Show `diff` between two specific commits |
+| `git show <SHA>..<SHA> --color-words` | Show only words that are different |
