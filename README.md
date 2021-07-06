@@ -49,3 +49,18 @@ ___
 | `git show` | Show `diff` between last two commits |
 | `git show <SHA>..<SHA>` | Show `diff` between two specific commits |
 | `git show <SHA>..<SHA> --color-words` | Show only words that are different |
+
+### Branching & Merging:
+
+| Command | Description |
+| ------- | ----------- |
+| `git branch` | Show list of the branches |
+| `git branch <name>` | Create branch |
+| `git checkout <branch>` | Switch branch |
+| `git checkout -b <name>` | Create and switch branch |
+| `git branch --merged` | Check what other branches have all of their commits merged into this branch already |
+| `git branch --no-merged` | Does the opposite of `branch --merged` |
+| `git branch -m <old name> <new name>` | Rename branch |
+| `git branch -d <branch>` | Delete branch |
+| `git merge <branch>` | Merge a branch into the active branch |
+| `git merge <source branch> <target branch>` | Merge a branch into a target branch |
