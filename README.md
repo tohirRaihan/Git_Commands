@@ -54,7 +54,9 @@ ___
 
 | Command | Description |
 | ------- | ----------- |
-| `git branch` | Show list of the branches |
+| `git branch` | Show list of the branches (local only) |
+| `git branch -r` | Show remote branches |
+| `git branch -a` | Show all branches (local and remote) |
 | `git branch <name>` | Create branch |
 | `git checkout <branch>` | Switch branch |
 | `git checkout -b <name>` | Create and switch branch |
