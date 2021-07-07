@@ -72,3 +72,18 @@ ___
 | `git reset --soft <tree-ish>` | Soft reset |
 | `git reset <tree-ish>` | Mixed reset |
 | `git reset --hard <tree-ish>` | Hard reset |
+
+### Temporary Commits:
+
+| Command | Description |
+| ------- | ----------- |
+| `git stash save "<label>"` | Save changes in the stash |
+| `git stash list` | List stack-order of stashed file changes |
+| `git stash show <stash>` | Show a stash in `diff --stat` |
+| `git stash show -p <stash>` | Show stash in patched version |
+| `git stash pop` | Remove single stash and apply it to the working directory |
+| `git stash pop <stash>` | Pop specific stash |
+| `git stash apply` | Same as `stash pop` but doesn't delete the stash |
+| `git stash clear` | Clear all stash |
+| `git stash drop` | Delete from top of stash stack |
+| `git stash drop <stash>` | Delete specific stash |
