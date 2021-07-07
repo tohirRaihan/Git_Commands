@@ -64,3 +64,11 @@ ___
 | `git branch -d <branch>` | Delete branch |
 | `git merge <branch>` | Merge a branch into the active branch |
 | `git merge <source branch> <target branch>` | Merge a branch into a target branch |
+
+### Rewrite History:
+
+| Command | Description |
+| ------- | ----------- |
+| `git reset --soft <tree-ish>` | Soft reset |
+| `git reset <tree-ish>` | Mixed reset |
+| `git reset --hard <tree-ish>` | Hard reset |
