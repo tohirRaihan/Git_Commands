@@ -87,3 +87,11 @@ ___
 | `git stash clear` | Clear all stash |
 | `git stash drop` | Delete from top of stash stack |
 | `git stash drop <stash>` | Delete specific stash |
+
+### Others:
+
+| Command | Description |
+| ------- | ----------- |
+| `git checkout <SHA> -- <file>` | Retrieve old version of a file |
+| `git revert <SHA>` | Revert a commit |
+| `git clean -f` | Remove untracked files |
