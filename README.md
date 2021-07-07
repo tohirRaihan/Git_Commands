@@ -95,3 +95,22 @@ ___
 | `git checkout <SHA> -- <file>` | Retrieve old version of a file |
 | `git revert <SHA>` | Revert a commit |
 | `git clean -f` | Remove untracked files |
+
+### Sharing & Updating:
+
+| Command | Description |
+| ------- | ----------- |
+| `git remote` | Manage set of tracked repositories |
+| `git remote add <alias> <url>` | Add a git URL as an alias |
+| `git remote -v` | Be a little more verbose and show remote url after name |
+| `git remote rm <alias>` | Remove the remote named "`<alias>`" |
+| `git push -u <alias> <branch name>` | Push the branch to remote repository (and track the branch) |
+| `git push <alias> <branch name>` | Push the branch to the remote repository |
+| `git branch --unset-upstream <branch name>` | The branch will not tracking anymore |
+| `git clone <url>` | Create a local copy of a remote repository |
+| `git push` | Push changes to remote repository of active branch (if a tracking branch) |
+| `git fetch` | Fetch all changes from a remote repository |
+| `git merge` | Merge a remote branch into your current branch to bring it up to date |
+| `git pull` | `git fetch` + `git merge` |
+| `git branch <branch name> <alias>/<branch name>` | Create branch based on remote tracking branch |
+| `git push <alias> --delete <branch name>` | Remove a branch from the remote repository |
