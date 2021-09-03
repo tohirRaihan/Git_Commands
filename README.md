@@ -104,7 +104,7 @@ ___
 | ------- | ----------- |
 | `git remote` | Manage set of tracked repositories |
 | `git remote add <alias> <url>` | Add a git URL as an alias |
-| `git remote set-url <alias> <url>` | Add a git URL as an alias or replace previous if already exist |
+| `git remote set-url <alias> <url>` | Replace a git URL as an alias |
 | `git remote -v` | Be a little more verbose and show remote url after name |
 | `git remote rm <alias>` | Remove the remote named "`<alias>`" |
 | `git push -u <alias> <branch name>` | Push the branch to remote repository (and track the branch) |
